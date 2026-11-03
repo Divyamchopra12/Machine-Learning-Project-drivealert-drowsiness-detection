@@ -1,0 +1,315 @@
+{
+  "task": "yawn",
+  "classes": [
+    "no_yawn",
+    "yawn"
+  ],
+  "best_classical": "Extra Trees",
+  "features": "HOG 64x64 (1764) + 16-bin histogram",
+  "train_size": 1230,
+  "test_size": 218,
+  "results": [
+    {
+      "model": "Logistic Regression",
+      "family": "classical",
+      "accuracy": 0.9311926605504587,
+      "precision": 0.9519230769230769,
+      "recall": 0.908256880733945,
+      "f1": 0.9295774647887324,
+      "auc": 0.9815672081474623,
+      "cv_accuracy": 0.9203252032520325,
+      "cv_std": 0.01597307536942156,
+      "train_s": 0.28850460052490234,
+      "infer_ms": 0.009188958264272148,
+      "size_kb": 49.755859375,
+      "params": null
+    },
+    {
+      "model": "K-Nearest Neighbours",
+      "family": "classical",
+      "accuracy": 0.8577981651376146,
+      "precision": 0.90625,
+      "recall": 0.7981651376146789,
+      "f1": 0.848780487804878,
+      "auc": 0.9420924164632607,
+      "cv_accuracy": 0.8260162601626015,
+      "cv_std": 0.0261429840501033,
+      "train_s": 0.5000357627868652,
+      "infer_ms": 0.1284518373121909,
+      "size_kb": 1236.916015625,
+      "params": null
+    },
+    {
+      "model": "SVM (RBF kernel)",
+      "family": "classical",
+      "accuracy": 0.926605504587156,
+      "precision": 0.9428571428571428,
+      "recall": 0.908256880733945,
+      "f1": 0.9252336448598131,
+      "auc": 0.9851864321185085,
+      "cv_accuracy": 0.9024390243902438,
+      "cv_std": 0.014543531560974234,
+      "train_s": 0.8399479389190674,
+      "infer_ms": 0.22111354617897522,
+      "size_kb": 1262.255859375,
+      "params": null
+    },
+    {
+      "model": "Decision Tree",
+      "family": "classical",
+      "accuracy": 0.8256880733944955,
+      "precision": 0.8141592920353983,
+      "recall": 0.8440366972477065,
+      "f1": 0.8288288288288288,
+      "auc": 0.8234155374126757,
+      "cv_accuracy": 0.7764227642276422,
+      "cv_std": 0.022995342477611327,
+      "train_s": 1.9478085041046143,
+      "infer_ms": 0.0,
+      "size_kb": 12.4501953125,
+      "params": null
+    },
+    {
+      "model": "Random Forest",
+      "family": "classical",
+      "accuracy": 0.9174311926605505,
+      "precision": 1.0,
+      "recall": 0.8348623853211009,
+      "f1": 0.91,
+      "auc": 0.9937715680498275,
+      "cv_accuracy": 0.8967479674796748,
+      "cv_std": 0.024873265919964825,
+      "train_s": 1.5360677242279053,
+      "infer_ms": 0.3222500512359339,
+      "size_kb": 4660.8046875,
+      "params": null
+    },
+    {
+      "model": "Naive Bayes",
+      "family": "classical",
+      "accuracy": 0.6788990825688074,
+      "precision": 0.7910447761194029,
+      "recall": 0.48623853211009177,
+      "f1": 0.6022727272727273,
+      "auc": 0.7531352579749181,
+      "cv_accuracy": 0.7121951219512195,
+      "cv_std": 0.03057170028774498,
+      "train_s": 0.48802709579467773,
+      "infer_ms": 0.022873965972060456,
+      "size_kb": 748.2392578125,
+      "params": null
+    },
+    {
+      "model": "Gradient Boosting",
+      "family": "classical",
+      "accuracy": 0.9587155963302753,
+      "precision": 0.9807692307692307,
+      "recall": 0.9357798165137615,
+      "f1": 0.9577464788732394,
+      "auc": 0.9951182560390539,
+      "cv_accuracy": 0.9357723577235773,
+      "cv_std": 0.011323892908279757,
+      "train_s": 34.79738903045654,
+      "infer_ms": 0.03944624454603283,
+      "size_kb": 4368.037109375,
+      "params": null
+    },
+    {
+      "model": "AdaBoost",
+      "family": "classical",
+      "accuracy": 0.8623853211009175,
+      "precision": 0.9157894736842105,
+      "recall": 0.7981651376146789,
+      "f1": 0.8529411764705882,
+      "auc": 0.9198720646410234,
+      "cv_accuracy": 0.8447154471544716,
+      "cv_std": 0.014175281117205413,
+      "train_s": 93.84159398078918,
+      "infer_ms": 1.9082771528751477,
+      "size_kb": 108.4326171875,
+      "params": null
+    },
+    {
+      "model": "Extra Trees",
+      "family": "classical",
+      "accuracy": 0.9724770642201835,
+      "precision": 1.0,
+      "recall": 0.944954128440367,
+      "f1": 0.9716981132075472,
+      "auc": 0.9965070280279438,
+      "cv_accuracy": 0.9268292682926829,
+      "cv_std": 0.017053802409270766,
+      "train_s": 0.9129841327667236,
+      "infer_ms": 0.529821859587223,
+      "size_kb": 10654.541015625,
+      "params": null
+    },
+    {
+      "model": "MLP Neural Network (ANN)",
+      "family": "classical",
+      "accuracy": 0.908256880733945,
+      "precision": 0.9405940594059405,
+      "recall": 0.8715596330275229,
+      "f1": 0.9047619047619048,
+      "auc": 0.9514350643885194,
+      "cv_accuracy": 0.8910569105691056,
+      "cv_std": 0.013209818544123508,
+      "train_s": 2.1639089584350586,
+      "infer_ms": 0.027510004306058274,
+      "size_kb": 1000.619140625,
+      "params": null
+    },
+    {
+      "model": "Linear Discriminant Analysis",
+      "family": "classical",
+      "accuracy": 0.6834862385321101,
+      "precision": 0.7272727272727273,
+      "recall": 0.5871559633027523,
+      "f1": 0.649746192893401,
+      "auc": 0.7945459136436326,
+      "cv_accuracy": 0.7333333333333332,
+      "cv_std": 0.024471409663890102,
+      "train_s": 0.5542855262756348,
+      "infer_ms": 0.02751547262209271,
+      "size_kb": 748.8564453125,
+      "params": null
+    },
+    {
+      "model": "MobileNetV2 CNN",
+      "family": "deep learning",
+      "accuracy": 0.8302752293577982,
+      "precision": 0.8829787234042553,
+      "recall": 0.7614678899082569,
+      "f1": 0.8177339901477833,
+      "auc": 0.9093090295791626,
+      "cv_accuracy": null,
+      "cv_std": null,
+      "train_s": null,
+      "infer_ms": null,
+      "size_kb": 21383.751953125,
+      "params": null
+    }
+  ],
+  "confusion_matrices": {
+    "Logistic Regression": [
+      [
+        104,
+        5
+      ],
+      [
+        10,
+        99
+      ]
+    ],
+    "K-Nearest Neighbours": [
+      [
+        100,
+        9
+      ],
+      [
+        22,
+        87
+      ]
+    ],
+    "SVM (RBF kernel)": [
+      [
+        103,
+        6
+      ],
+      [
+        10,
+        99
+      ]
+    ],
+    "Decision Tree": [
+      [
+        88,
+        21
+      ],
+      [
+        17,
+        92
+      ]
+    ],
+    "Random Forest": [
+      [
+        109,
+        0
+      ],
+      [
+        18,
+        91
+      ]
+    ],
+    "Naive Bayes": [
+      [
+        95,
+        14
+      ],
+      [
+        56,
+        53
+      ]
+    ],
+    "Gradient Boosting": [
+      [
+        107,
+        2
+      ],
+      [
+        7,
+        102
+      ]
+    ],
+    "AdaBoost": [
+      [
+        101,
+        8
+      ],
+      [
+        22,
+        87
+      ]
+    ],
+    "Extra Trees": [
+      [
+        109,
+        0
+      ],
+      [
+        6,
+        103
+      ]
+    ],
+    "MLP Neural Network (ANN)": [
+      [
+        103,
+        6
+      ],
+      [
+        14,
+        95
+      ]
+    ],
+    "Linear Discriminant Analysis": [
+      [
+        85,
+        24
+      ],
+      [
+        45,
+        64
+      ]
+    ],
+    "MobileNetV2 CNN": [
+      [
+        98,
+        11
+      ],
+      [
+        26,
+        83
+      ]
+    ]
+  }
+}

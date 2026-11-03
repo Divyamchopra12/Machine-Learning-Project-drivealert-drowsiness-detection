@@ -1,0 +1,11 @@
+# One-click deploy on Render (render.com → New → Blueprint → pick this repo).
+# The free plan sleeps when idle and has no persistent disk, so trips/settings reset on restart.
+services:
+  - type: web
+    name: drivealert
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: GEMINI_API_KEY      # optional – AI trip reports and fleet questions
+        sync: false

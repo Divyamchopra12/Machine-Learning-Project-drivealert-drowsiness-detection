@@ -1,0 +1,15 @@
+{
+  "name": "DriveAlert – Driver Drowsiness Detection",
+  "short_name": "DriveAlert",
+  "description": "Real-time driver drowsiness and distraction detection with escalating alarms.",
+  "start_url": "./#monitor",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0B0F17",
+  "theme_color": "#0B0F17",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}

@@ -1,0 +1,10 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+data/
+results/
+*.zip
+.git/
+.ipynb_checkpoints/
+raspberry_pi/

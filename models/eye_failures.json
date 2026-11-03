@@ -1,0 +1,82 @@
+{
+  "task": "eye",
+  "test_images": 218,
+  "wrong": 6,
+  "error_rate": 0.027522935779816515,
+  "false_alarms": 3,
+  "missed": 3,
+  "causes": {
+    "blurry": 3,
+    "borderline": 3,
+    "other": 2,
+    "low contrast": 2,
+    "dark": 1
+  },
+  "examples": [
+    {
+      "file": "_54.jpg",
+      "true": "open",
+      "pred": "closed",
+      "prob": 0.845,
+      "kind": "false alarm",
+      "causes": [
+        "blurry"
+      ]
+    },
+    {
+      "file": "_671.jpg",
+      "true": "open",
+      "pred": "closed",
+      "prob": 0.829,
+      "kind": "false alarm",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "file": "_670.jpg",
+      "true": "open",
+      "pred": "closed",
+      "prob": 0.644,
+      "kind": "false alarm",
+      "causes": [
+        "other"
+      ]
+    },
+    {
+      "file": "_387.jpg",
+      "true": "closed",
+      "pred": "open",
+      "prob": 0.405,
+      "kind": "missed",
+      "causes": [
+        "blurry",
+        "low contrast",
+        "borderline"
+      ]
+    },
+    {
+      "file": "_494.jpg",
+      "true": "closed",
+      "pred": "open",
+      "prob": 0.469,
+      "kind": "missed",
+      "causes": [
+        "borderline"
+      ]
+    },
+    {
+      "file": "_463.jpg",
+      "true": "closed",
+      "pred": "open",
+      "prob": 0.471,
+      "kind": "missed",
+      "causes": [
+        "dark",
+        "blurry",
+        "low contrast",
+        "borderline"
+      ]
+    }
+  ]
+}

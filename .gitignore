@@ -1,0 +1,14 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/
+results/
+clips/
+*.zip
+# trained models are large – upload them as a GitHub Release or keep them out of git
+models/*.keras
+models/*.tflite
+models/*.joblib
+models/*.pt
